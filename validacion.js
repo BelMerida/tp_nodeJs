@@ -2,10 +2,10 @@ function validarDatos(data){
     let { nombre, apellido, dni} = data;
     dni = parseInt(dni);
 
-    if( apellido === NULL || apellido == ""){
+    if( apellido === null || apellido == ""){
         throw new Error('El campo Apellido es obligatorio')
     }
-    if( dni === NULL ){
+    if( dni === null ){
         throw new Error('El campo DNI es obligatorio')
     }
     if( typeof nombre !== "string"){

@@ -33,7 +33,7 @@ app.post('/personas', (req, res) => {
 
     rp(options)
         .then(function (parseBody) {
-            console.log("Error al crear.")
+            console.log("Creado correctamente.")
         })
         .catch(function (err) {
             console.log("Error al crear.")
