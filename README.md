@@ -4,7 +4,9 @@
 Pasos para ejecutar el programa del Ejercicio 7:
 
 1.Ejecutar en la consola el comando "node index.js".
+
 2.abrir el archivo crearrPersonas.html en el navegador web.
+
 3.Llenar los campos del formulario y presionar el boton "submit" para el enviado.
 
 Respuestas del Ejercicio 2:
